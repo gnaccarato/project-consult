@@ -1,0 +1,131 @@
+* {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+#header_navbar {
+    position: fixed;
+    width: 100vw;
+    background: rgb(0, 0, 0);    
+    z-index: 2;
+    opacity: 0.9;        
+}
+
+#header {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+#navbar_drop {
+    display: none;
+}
+
+.header_logo {
+    float: left;
+    margin-top: 8px;   
+}
+
+.header_logo img {
+    height: 50px;
+    width: 200px;
+}
+
+.header_social {
+    float: right;
+    margin-top: 8px;    
+    text-align: center;
+    font-size: 40px;
+    color: #f4f4f4;
+}
+
+.header_social i:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+#navbar ul {    
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    transition: 0.1s;
+}
+
+#navbar li a:hover {
+    color: orange;
+    transition: 0.1s;
+}
+
+#navbar li a.active {
+    color: orange;
+}
+
+#jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
+        url("img/Rise.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;    
+}
+
+.jumbotron_content {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 35%;
+    text-align: center;
+    color: rgb(218, 218, 218);
+    z-index: 1;
+}
+
+.jumbotron_content h3 {
+    margin: 25px auto;    
+    font-size: 2.5rem;
+    text-transform: uppercase;    
+    position: relative;
+    animation: jumbo_h3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes jumbo_h3 {
+    0% {bottom: -300px; opacity: 0}
+    100% {bottom: 0px; opacity: 1}
+}
+
+.jumbotron_content h5 {
+    margin: 25px auto;
+    font-size: 1.3rem;
+    animation: jumbo_h5;
+    opacity: 0;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes jumbo_h5 {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
