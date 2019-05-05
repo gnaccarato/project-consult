@@ -180,7 +180,7 @@
     margin: 25px 10px;
 }
 
-.main_featured {    
+.main_featured {        
     width: 50vw;    
     margin: 35px auto;    
 }
@@ -190,9 +190,15 @@
 }
 
 .featured_content {
-    margin: 35px 5px;
+    text-align: center;        
+    margin: 35px 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.featured_content img {
+    text-align: center;
+    margin: 15px 55px;
 }
 
 .main_banner {
