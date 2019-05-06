@@ -210,3 +210,44 @@
     background: orange;
     color: rgb(218, 218, 218);
 }
+
+.eos_elements {
+    width: 50vw;
+    margin: 35px auto;            
+}
+
+.eos_elements h4 {
+    color: orange;
+    text-align: center;
+}
+
+.element_1 {
+    text-align: center;
+    margin: 35px auto;     
+}
+
+.element_2,
+.element_3,
+.element_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 55px 15px;     
+}
+
+.element_2 p {
+    margin: auto 0;
+}
+
+.element_3 p {
+    margin: auto 0;
+}
+
+.element_4 p {
+    margin: auto 0;
+}
+
+.element_4 img {
+    margin: auto 0;
+    height: 300px;
+    width: 300px;
+}
