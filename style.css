@@ -1,6 +1,7 @@
 * {
     font-family: 'Merriweather', serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 #header_navbar {
@@ -250,4 +251,76 @@
     margin: auto 0;
     height: 300px;
     width: 300px;
+}
+
+.eos_entrepeneur {
+    margin: 35px auto;
+    text-align: center;
+}
+
+.eos_entrepeneur_columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.eos_column {
+    margin: 35px 5px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.checkup_banner {    
+    width: 100vw;
+    margin: 25px auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: orange;
+    color: rgb(218, 218, 218);
+}
+
+.checkup {
+    width: 40vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.checkup h2 {
+    margin: auto 0;
+}
+
+.contact {
+    width: 50vw;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.contact_columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px;
+}
+
+.contact_info {
+    text-align: center;
+    margin: 35px 5px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.contact_info i {
+    margin: 15px 0;
+    font-size: 2rem;
+    color: orange;
+}
+
+.footer {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    background: #111;
+    color: #f4f4f4;
+    line-height: 2;
 }
