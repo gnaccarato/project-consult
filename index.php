@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Infinity Group Consulting| Building Better Businesses</title>
-    <link rel="stylesheet" href="style.css" />
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-            crossorigin="anonymous"
-        />
-        <link
-            href="https://fonts.googleapis.com/css?family=Merriweather"
-            rel="stylesheet"
-        />
-        <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
-</head>
-<body>
-    <div id="header_navbar">
+<?php include('header.php'); ?>
+<div id="header_navbar">
         <header id="header">                
             <div class="header_logo">                        
-                <a href="index.html">                        
+                <a href="index.php">                        
                     <img src="img/logo.jpg" alt="Name and Logo"/>
                 </a>
             </div>
@@ -34,10 +14,10 @@
         <div id="navbar_drop">&#9776</div>
         <nav id="navbar">                
             <ul>
-                <li><a href="index.html" class="active">What is EOS?</a></li>
-                <li><a href="infinity.html">What is Infinity Leadership?</a></li>
-                <li><a href="about.html">About</a></li>                                
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.php" class="active">What is EOS?</a></li>
+                <li><a href="infinity.php">What is Infinity Leadership?</a></li>
+                <li><a href="#">About</a></li>                                
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -191,13 +171,5 @@
             </div>
         </div>        
     </div>
-    <footer>
-        <div class="footer">
-            <h5>Better AWARENESS.Better CHOICES. Better RESULTS</h5>
-            <p>&copy; 2017, Infinity Consulting</p>
-        </div>
-    </footer>
-</body>
-<script>
-</script>
-</html>
+
+    <?php include('footer.php'); ?>

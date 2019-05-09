@@ -1,15 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>What is Infinity Leadership?</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet"/>
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
-</head>
-<body>
+<?php include('header.php') ?>
+<div id="header_navbar">
+        <header id="header">                
+            <div class="header_logo">                        
+                <a href="index.php">                        
+                    <img src="img/logo.jpg" alt="Name and Logo"/>
+                </a>
+            </div>
+            <div class="header_social">                    
+                <i class="fab fa-facebook"></i>                
+                <i class="fab fa-instagram"></i>
+            </div>
+        </header>
+        <div id="navbar_drop">&#9776</div>
+        <nav id="navbar">                
+            <ul>
+                <li><a href="index.php">What is EOS?</a></li>
+                <li><a href="infinity.php" class="active">What is Infinity Leadership?</a></li>
+                <li><a href="#">About</a></li>                                
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <div class="main">
         <div class="main_leadership">
             <h1>What is the (X)-ceptional Leadership System?</h1>
@@ -115,6 +126,5 @@
             <hr>
         </div>
     </div>
-</body>
-</html>
 
+<?php include('footer.php') ?>
